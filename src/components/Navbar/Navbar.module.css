@@ -1,0 +1,19 @@
+
+.navbarContainer{
+    max-width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem auto;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+    margin: 0 auto;
+}
+h1,ul{
+    padding: 0;
+    margin: 0;
+}
+.links{
+    display: flex;
+    gap: 2rem;
+    list-style-type: none;
+}
