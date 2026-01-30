@@ -32,6 +32,8 @@
     border-radius: .5rem;
     border-color: orange;
     background-color: transparent;
+    padding: .10rem;
+    text-align: center;
 }
 
 .btn.outline{
