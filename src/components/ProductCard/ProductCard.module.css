@@ -1,0 +1,39 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    border:1px solid orange;
+    border-radius: .5rem;
+    padding: .75rem;
+    max-height: fit-content;
+}
+.card img{
+    max-height: 300px;
+}
+.btn{
+    border: none;
+    background-color: rgba(255, 166, 0, 0.598);
+    color: white;
+    border-radius: .5rem;
+    transition: all .45s;
+}
+.btn:hover{
+    background-color: orange;
+}
+
+.qtyContainer{
+    display: flex;
+    gap: .25rem;
+    justify-content: center;
+    width: 100%;
+}
+.qtyContainer input{
+    border-radius: .5rem;
+    border-color: orange;
+    background-color: transparent;
+}
+
+.btn.outline{
+    background-color: transparent;
+    border: 1px solid orange;
+    color: orange;
+}
