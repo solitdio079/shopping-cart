@@ -3,6 +3,21 @@
   padding: 2rem;
   text-align: center;
 }
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-height: 90vh;
+  padding: 2rem;
+}
+
+.btn{
+  background-color: transparent;
+  border: 1px solid orange;
+  padding: .5rem;
+  font-size: 1.25rem;
+  color: orange;
+}
 
 .logo {
   height: 6em;

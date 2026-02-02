@@ -20,7 +20,7 @@ export default function Shop() {
           return;
         }
         const response = await req.json();
-        console.log(response)
+        //console.log(response)
         setProducts(response);
         setIsLoading(false);
       } catch (error) {

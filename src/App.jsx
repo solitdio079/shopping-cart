@@ -1,32 +1,31 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+import bySolitdioLogo from './assets/logo.png'
 import viteLogo from '/vite.svg'
 import './App.css'
+import {Link} from "react-router-dom"
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
+      <div className='main'>
+      
+        <a href="https://bysolitdio.com" target="_blank">
+          <img src={bySolitdioLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1>Welcome to byShop</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
+        <Link className='btn' to="/shop">
+          Shop
+        </Link>
         <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
+          This website is a Demo project.
         </p>
       </div>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+        Click on bySolitdio logo to learn more
       </p>
     </>
   )
